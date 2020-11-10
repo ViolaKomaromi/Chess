@@ -1,0 +1,110 @@
+
+
+*{box-sizing: border-box;}
+
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 5px;
+    background-image:url("https://images.chesscomfiles.com/uploads/v1/chess_term/b825c6ea-7087-11ea-8020-d3e4d3707253.da7e8779.630x354o.0e9b48571e37@2x.png") ;
+}
+.chess{
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 5px solid cyan;
+    /* border-bottom: 10px solid cyan; */
+    border-width: 100%;
+    margin:10px 5px 10px 5px ;
+    display: block;
+    font-size: 5px;
+}
+.black{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    font-size: 50px;
+    display: table-cell;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+.white{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    /* vertical-align: middle; */
+
+}
+.white{
+    width: 12.5%;
+}
+.black{
+    width: 12.5%;
+}
+#w {
+    color: white;
+}
+
+.black:hover{
+    color: white;
+    animation-name: initial;
+    display: block;
+
+}
+.white:hover{
+    color:black ;
+    display: block;
+}
+
+body:hover{
+    font-size: 40px;
+    color: rgb(165, 245, 6);
+    transition: 1s 0.5s;
+    /* opacity: 1; */
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    
+
+}
+#w:hover{ 
+    color: turquoise;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 3px teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* #w:hover{display: block;
+} */
+/* .white .black:hover{
+    opacity:30% ; */
+
+
+}
+
+/* .rook:hover{
+    opacity: 30%;
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+@media all and (max-width:640px){
+    .chess{
+        width: 100%; !important
+
+    }
+}
